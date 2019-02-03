@@ -1,0 +1,157 @@
+body {
+    background: url("images/concrete_seamless.png") repeat;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background:white;
+    margin-bottom: 20px;
+}
+.headerTitle
+{
+    width: 200px;
+    height: 100px;
+    padding-top: 30px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 26px;
+    float: left;
+}
+.headerTitle:hover{
+    text-shadow: 4px 4px 4px #666;
+    color: azure;
+    cursor: pointer;
+}
+.navLink{
+    text-decoration:none;
+    color: #cccccc;
+    text-align: right;
+    margin-top: 30px;
+    padding-top: 10px;
+    float: right;
+}
+.navWrapper
+{
+    text-align: right;
+    background-color: #FFF;
+}
+.navLink:hover
+{
+    color: #666666;
+    text-decoration: underline;
+}
+section{
+    min-height: 200px;
+    height: auto;
+    background: white;
+    padding: 20px;
+    border: 2px solid #dddddd;
+
+    
+}
+.sectionTitle
+{
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    border-bottom: 2px solid #cccccc;
+
+}
+footer {
+    padding: 25px 0px;
+    background:#666666;
+    margin-top: 40px;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+    color: #cccccc; 
+}
+/* portfolio styles */
+.boxWrapper{
+    width: 920px;
+    height: 980px;
+}
+.portfolioDisc {
+	width: 300px;
+    height: 0px;
+	padding-top: 0px;
+    overflow:hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-top:300px;
+	font-size: 15px;
+	line-height: 18px;
+	text-align:center;
+	color: #FFF;
+    background-color: #4aaaa5;
+    float: left;
+    cursor: pointer;
+}
+
+.img1 {
+	width:30%;
+	height: 30%;
+    background: url('images/image1.jpg') center;
+    float: left;
+    margin: 10px;
+    }
+.img2 {
+    width:30%;
+	height: 30%;
+    background: url('images/image2.jpg') center;
+    float: left;
+    margin: 10px;
+    }
+.img3 {
+    width:30%;
+	height: 30%;
+    background: url('images/image3.jpg') center;
+    float: left;
+    margin: 10px;
+    }
+.img4 {
+    width:30%;
+	height: 30%;
+    background: url('images/image4.jpg') center;
+    float: left;
+    margin: 10px;
+    }
+.img5 {
+    width:30%;
+	height: 30%;
+    background: url('images/image5.jpg') center;
+    float: left;
+    margin: 10px;
+    }
+/*.img1:hover .portfolioDisc {
+	margin-top:221px;
+    padding: 30px;
+	
+}
+.img2:hover .portfolioDisc {
+	margin-top:221px;
+    padding: 30px;
+	
+}
+.img3:hover .portfolioDisc {
+	margin-top:221px;
+    padding: 30px;
+	
+}
+.img4:hover .portfolioDisc {
+	margin-top:221px;
+    padding: 30px;
+	
+}
+.img5:hover .portfolioDisc {
+	margin-top:221px;
+    padding: 30px;
+	
+}
+*/
